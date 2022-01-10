@@ -10,31 +10,6 @@ Our client, Steve, wanted to use the worksheet previously created to be able to 
 
 ## Results
 
-The beginning of the code creates the input box to get the year the analysis should be run on, begins the timer, and formats the header row. 
-Then it builds the array of tickers followed in the project
-![image](https://user-images.githubusercontent.com/82191831/125208640-c33a1200-e261-11eb-8fc7-62419cae540f.png)
-
-
-The next section activates the necessary worksheet, gets a count of how many rows should be looped over, and creates a ticker index. 
-Then it creates output arrays for ticker volume, starting prices and ending prices, and initializes the ticker volume to 0
-
-![image](https://user-images.githubusercontent.com/82191831/125208786-9e926a00-e262-11eb-8b2c-31135cd4d243.png)
-
-
-Next, the for loop that fills in the spreadsheet with the requested data is created. This block goes over all rows in the spreadsheet, and determines volume of the current ticker, and starting and ending price to calculate the return later on.
-
-![image](https://user-images.githubusercontent.com/82191831/125208891-40b25200-e263-11eb-8e0d-83d082b3bcd4.png)
-
-
-The next portion outputs the results to the AllStocksAnalysis page
-
-![image](https://user-images.githubusercontent.com/82191831/125209002-f41b4680-e263-11eb-972e-259fa5448ac6.png)
-
-
-Finally, the last section formats the AllStocksAnalysis page with colors, text styling, and formatting. 
-It also ends the timer, and provided the popup that shows the time it took to run the script. 
-
-![image](https://user-images.githubusercontent.com/82191831/125209179-28433700-e265-11eb-8b83-75a1a21dcaeb.png)
 
 
 ## Summary
